@@ -62,6 +62,18 @@
 看板：
 
 > **菜单汉化**》**界面汉化**》**按钮汉化**》布局调整》提示汉化》更多...
+>
+> - [x] EXEFILE
+> - [x] Cursor
+> - [x] Bitmap
+> - [x] Icon
+> - [x] Dialog
+> - [ ] String Table
+> - [ ] RC Data
+> - [x] Cursor Group
+> - [x] Icon Group
+> - [x] Version
+> - [x] Manifest
 
 
 
