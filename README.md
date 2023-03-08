@@ -1,4 +1,5 @@
-# MobaXterm-Chinese-Simplified
+<p><h1 align="center">MobaXterm-Chinese-Simplified</h1><br/></p> 
+
 <p align="center">
   <a href="https://github.com/ripplepiam/MobaXterm-Chinese-Simplified/issues">
     <img src="https://img.shields.io/github/issues/ripplepiam/MobaXterm-Chinese-Simplified.svg">
