@@ -28,9 +28,15 @@
 
 - 官网：[MobaXterm](https://mobaxterm.mobatek.net/) 
 
-- 介绍 [MobaXterm v22.1 全能终端连接工具](https://blog.csdn.net/qq_27677599/article/details/126093381)
+- 汉化：请从 releases 下载
 
-  > **MobaXterm** 是一个增强型的 Windows 终端，其为 Windows 桌面提供所有重要的**远程网络工具**（SSH、X11、RDP、VNC、FTP、MOSH...）和**Unix 命令**（bash、ls、cat、sed、grep、awk、rsync...）。
+- 介绍： [MobaXterm v22.1 全能终端连接工具](https://blog.csdn.net/qq_27677599/article/details/126093381)
+
+  > **MobaXterm** 是一个增强型的 Windows 终端。
+  >
+  > 其为 Windows 桌面提供所有重要的 **远程网络工具**（SSH、X11、RDP、VNC、FTP、MOSH...）
+  >
+  > 和 **Unix 命令**（bash、ls、cat、sed、grep、awk、rsync...）。
   >
   > 您可以免费下载和使用 MobaXterm 家庭版。如果您想在公司内部使用它，您应该考虑订阅 MobaXterm 专业版。
 
