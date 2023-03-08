@@ -1,4 +1,28 @@
 # MobaXterm-Chinese-Simplified
+<p align="center">
+  <a href="https://github.com/ripplepiam/MobaXterm-Chinese-Simplified/issues">
+    <img src="https://img.shields.io/github/issues/ripplepiam/MobaXterm-Chinese-Simplified.svg">
+  </a>
+  <a href="https://github.com/ripplepiam/MobaXterm-Chinese-Simplified/stargazers">
+    <img src="https://img.shields.io/github/stars/ripplepiam/MobaXterm-Chinese-Simplified.svg">
+  </a>
+  <a href="https://github.com/RipplePiam/MobaXterm-Chinese-Simplified/watchers">
+    <img src="https://img.shields.io/github/watchers/RipplePiam/MobaXterm-Chinese-Simplified">
+  </a>
+  <a href="https://github.com/ripplepiam/MobaXterm-Chinese-Simplified/network">
+    <img src="https://img.shields.io/github/forks/ripplepiam/MobaXterm-Chinese-Simplified.svg">
+  </a>
+  <a href="https://github.com/ripplepiam/MobaXterm-Chinese-Simplified/downloads">
+    <img src="https://img.shields.io/github/downloads/RipplePiam/MobaXterm-Chinese-Simplified/total">
+  </a>
+  <a href="https://github.com/ripplepiam/MobaXterm-Chinese-Simplified">
+    <img src="https://img.shields.io/github/repo-size/RipplePiam/MobaXterm-Chinese-Simplified">
+  </a>
+  <a href="https://github.com/RipplePiam/MobaXterm-Chinese-Simplified/tags">
+  	<img src="https://img.shields.io/github/v/release/RipplePiam/MobaXterm-Chinese-Simplified?include_prereleases">
+  </a>
+</p>
+
 ### 一、简介
 
 - 官网：[MobaXterm](https://mobaxterm.mobatek.net/) 
