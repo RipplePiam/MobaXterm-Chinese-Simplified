@@ -22,13 +22,28 @@
   <a href="https://github.com/RipplePiam/MobaXterm-Chinese-Simplified/tags">
   	<img src="https://img.shields.io/github/v/release/RipplePiam/MobaXterm-Chinese-Simplified?include_prereleases">
   </a>
+  <br/>
 </p>
 
-### 一、简介
+   [![Star History Chart](https://api.star-history.com/svg?repos=RipplePiam/MobaXterm-Chinese-Simplified&type=Date)](https://star-history.com/#RipplePiam/MobaXterm-Chinese-Simplified&Date) 
+
+
+
+### 一、声明
+
+1. 本项目对软件本身功能**未作任何修改**；
+2. 本项目**不提供** MobaXterm 软件的任何注册、破解技术；
+3. 本项目为**非盈利**属性，仅用于研究汉化技术，欢迎提交 issue；
+4. 若项目对您的知识产权构成侵权，请提供证明并联系，作者将第一时间处理；
+5. 制作不易，酌请 :star: **Star** :star:  支持，谢谢。
+
+
+
+### 二、简介
 
 - 官网：[MobaXterm](https://mobaxterm.mobatek.net/) 
 
-- 汉化：请从 releases 下载
+- 汉化：请从 [Releases](https://github.com/RipplePiam/MobaXterm-Chinese-Simplified/releases) 下载
 
 - 介绍： [MobaXterm v22.1 全能终端连接工具](https://blog.csdn.net/qq_27677599/article/details/126093381)
 
@@ -80,7 +95,7 @@
 
 
 
-### 二、项目
+### 三、项目看板
 
 本仓库旨在对 MobaXterm Home Edition (Portable edition) 进行简体中文汉化。
 
@@ -113,8 +128,8 @@
 > >
 > > - [ ] 服务器管理
 > > - [ ] 设置
-> > - [ ] 菜单
-> > - [ ] 按钮
+> > - [x] 菜单
+> > - [x] 按钮
 > > - [ ] 对话框信息
 > > - [ ] 调整布局
 >
@@ -129,13 +144,3 @@
 > - [x] Icon Group
 > - [x] Version
 > - [x] Manifest
-
-
-
-### 三、声明
-
-1. 本项目对软件本身功能**未作任何修改**；
-2. 本项目**不提供** MobaXterm 软件的任何注册、破解技术；
-3. 本项目为**非盈利**属性，仅用于研究汉化技术，欢迎提交 issue；
-4. 若项目对您的知识产权构成侵权，请提供证明并联系，作者将第一时间处理；
-5. 制作不易，酌请 :star: **Star** :star:  支持，谢谢。
