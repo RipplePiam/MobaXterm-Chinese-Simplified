@@ -46,7 +46,7 @@
 
 - 汉化：请从 [Releases](https://github.com/RipplePiam/MobaXterm-Chinese-Simplified/releases) 下载
 
-- 介绍： [MobaXterm v22.1 全能终端连接工具](https://blog.csdn.net/qq_27677599/article/details/126093381)
+- 介绍： [独家.MobaXterm v24.2 全能终端连接工具中文版](https://blog.csdn.net/qq_27677599/article/details/141603558)
 
   > **MobaXterm** 是一个增强型的 Windows 终端。
   >
