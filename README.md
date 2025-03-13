@@ -10,12 +10,6 @@
   <a href="https://github.com/ripplepiam/MobaXterm-Chinese-Simplified/stargazers">
     <img src="https://img.shields.io/github/stars/ripplepiam/MobaXterm-Chinese-Simplified.svg">
   </a>
-  <a href="https://github.com/RipplePiam/MobaXterm-Chinese-Simplified/watchers">
-    <img src="https://img.shields.io/github/watchers/RipplePiam/MobaXterm-Chinese-Simplified">
-  </a>
-  <a href="https://github.com/ripplepiam/MobaXterm-Chinese-Simplified/network">
-    <img src="https://img.shields.io/github/forks/ripplepiam/MobaXterm-Chinese-Simplified.svg">
-  </a>
   <a href="https://github.com/ripplepiam/MobaXterm-Chinese-Simplified/downloads">
     <img src="https://img.shields.io/github/downloads/RipplePiam/MobaXterm-Chinese-Simplified/total">
   </a>
@@ -25,7 +19,7 @@
   <a href="Latest Chinese Version">
     <img src="assets/chs_badge.svg">
   </a>
-  <br/>
+  <br/><br />
   <a href="https://www.star-history.com/#RipplePiam/MobaXterm-Chinese-Simplified&Date">
    <picture>
      <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=RipplePiam/MobaXterm-Chinese-Simplified&type=Date&theme=dark" />
