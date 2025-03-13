@@ -1,4 +1,4 @@
-name: Check MobaXterm Version
+name: Check MobaXterm Latest Version
 env:
   GH_TOKEN: ${{ secrets.GH_TOKEN }}
 on:
