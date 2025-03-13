@@ -72,7 +72,7 @@ jobs:
               -f name="MXT_VERSION" \
               -f value="$VERSION" \
               -f visible=true
-            echo "actions.variables.MXT_VERSION is set to $VERSION."
+            echo "actions.variables.MXT_VERSION is set to $VERSION"
           else
             echo "actions.variables.MXT_VERSION is already up to date."
           fi
