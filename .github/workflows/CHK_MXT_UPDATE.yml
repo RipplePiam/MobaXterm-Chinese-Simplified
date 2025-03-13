@@ -1,0 +1,88 @@
+name: Check MobaXterm Version
+env:
+  GH_TOKEN: ${{ secrets.GH_TOKEN }}
+on:
+  schedule:
+    - cron: '0 2 * * *' # 每天 UTC 时间 02:00 (北京时间 10:00)
+  workflow_dispatch: # 允许手动触发
+jobs:
+  check-version:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: checkout repo
+        uses: actions/checkout@v4.2.2
+        
+      - name: Fetch MobaXterm Download Page
+        run: |
+          curl -sL "https://mobaxterm.mobatek.net/download-home-edition.html" -o mobaxterm.html
+          echo "Downloaded mobaxterm.html"
+      
+      - name: Extract Version Number
+        id: extract
+        run: |
+          # Extract the version from the "Portable edition" string using a regex.
+          PATTERN="MobaXterm Home Edition v[0-9]+.[0-9]+<br />\(Portable edition\)"
+          VERSION=$(grep -oE "$PATTERN" mobaxterm.html | grep -oE "[0-9]+.[0-9]+")
+          if [ -z "$VERSION" ]; then
+            echo "Failed to extract version number"
+            exit 1
+          fi
+          echo "Latest MobaXterm version: $VERSION"
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+
+      - name: Send Email
+        if: ${{ vars.MXT_VERSION != steps.extract.outputs.version }}
+        uses: dawidd6/action-send-mail@v4
+        with:
+          connection_url: ${{ secrets.CONNECTION }}
+          
+          subject: "MobaXterm 发布版本更新"
+          from: Github Actions
+          to: ${{ secrets.EMAIL }}
+          body: |
+              MobaXterm 已发布新的软件版本 v${{ steps.extract.outputs.version }} 
+      
+      - name: Generate MXT Badge
+        id: gen_mxt_bdg
+        if: ${{ vars.MXT_VERSION != steps.extract.outputs.version }}
+        run: |
+          VERSION=${{ steps.extract.outputs.version }}
+          mkdir -p assets
+          cat > assets/mxt_badge.svg <<EOF
+          <svg width="195" height="20" xmlns="http://www.w3.org/2000/svg">
+           <g class="layer">
+            <rect fill="#555" id="svg_1" height="20" width="155" rx="3" x="0" y="-0.08"/>
+            <rect fill="#4c1" id="svg_2" height="20" width="40" rx="3" x="155" y="-0.08"/>
+            <path fill="#4c1" id="svg_3" d="m153.09,-0.09l4.6,0l0,20l-4.6,0l0,-20z"/>
+            <text fill="#fff" id="svg_4" font-family="Verdana" font-size="11" x="4" y="14">MobaXterm Latest Version</text>
+            <text fill="#fff" id="svg_5" font-family="Verdana" font-size="11" x="158" y="14">v$VERSION</text>
+           </g>
+          </svg>
+          EOF
+
+      - name: Update Actions Variables
+        if: ${{ vars.MXT_VERSION != steps.extract.outputs.version }}
+        run: |
+          VERSION=${{ steps.extract.outputs.version }}
+          mxt_version=$(gh api repos/${{ github.repository }}/actions/variables/MXT_VERSION --jq '.value' 2>/dev/null || echo "00.0")
+          echo mxt_version: $mxt_version
+          if [ "$VERSION" != "$mxt_version" ]; then
+            gh api -X PATCH repos/${{ github.repository }}/actions/variables/MXT_VERSION \
+              -f name="MXT_VERSION" \
+              -f value="$VERSION" \
+              -f visible=true
+            echo "actions.variables.MXT_VERSION is up to date."
+          else
+            echo "actions.variables.MXT_VERSION is already up to date."
+          fi
+      
+      - name: Commit MXT Badge
+        if: steps.gen_mxt_bdg.outcome == 'success'
+        uses: EndBug/add-and-commit@v9.1.4
+        with:
+          author_name: Github Actions
+          author_email: actions@github.com
+          add: "assets/mxt_badge.svg assets/chs_badge.svg"
+          message: "update version badge to v${{ vars.MXT_VERSION }}"
+      
