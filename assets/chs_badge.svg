@@ -1,0 +1,9 @@
+<svg width="178" height="20" xmlns="http://www.w3.org/2000/svg">
+ <g class="layer">
+  <rect fill="#555" id="svg_1" height="20" rx="3" width="140" x="0" y="-0.08"/>
+  <rect fill="#f94" id="svg_2" height="20" rx="3" width="38" x="140" y="-0.08"/>
+  <rect fill="#f94" id="svg_3" height="20" width="8" x="136" y="-0.08"/>
+  <text fill="#fff" id="svg_4" font-family="Verdana" font-size="11" x="5" y="14">Latest Chinese Version</text>
+  <text fill="#fff" id="svg_5" font-family="Verdana" font-size="11" x="140" y="14">v24.3</text>
+ </g>
+</svg>
