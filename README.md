@@ -1,6 +1,9 @@
 <p><h1 align="center">MobaXterm-Chinese-Simplified</h1><br/></p> 
 
 <p align="center">
+  <a href="https://github.com/ripplepiam/MobaXterm-Chinese-Simplified">
+    <img src="https://img.shields.io/github/repo-size/RipplePiam/MobaXterm-Chinese-Simplified">
+  </a>
   <a href="https://github.com/ripplepiam/MobaXterm-Chinese-Simplified/issues">
     <img src="https://img.shields.io/github/issues/ripplepiam/MobaXterm-Chinese-Simplified.svg">
   </a>
@@ -16,15 +19,19 @@
   <a href="https://github.com/ripplepiam/MobaXterm-Chinese-Simplified/downloads">
     <img src="https://img.shields.io/github/downloads/RipplePiam/MobaXterm-Chinese-Simplified/total">
   </a>
-  <a href="https://github.com/ripplepiam/MobaXterm-Chinese-Simplified">
-    <img src="https://img.shields.io/github/repo-size/RipplePiam/MobaXterm-Chinese-Simplified">
-  </a>
   <a href="MobaXterm Latest Version">
     <img src="assets/mxt_badge.svg">
   </a>
+  <a href="Latest Chinese Version">
+    <img src="assets/chs_badge.svg">
+  </a>
   <br/>
-  <a href="Star History Chart">
-    <img src="https://api.star-history.com/svg?repos=RipplePiam/MobaXterm-Chinese-Simplified&type=Date" width="700">
+  <a href="https://www.star-history.com/#RipplePiam/MobaXterm-Chinese-Simplified&Date">
+   <picture>
+     <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=RipplePiam/MobaXterm-Chinese-Simplified&type=Date&theme=dark" />
+     <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=RipplePiam/MobaXterm-Chinese-Simplified&type=Date" />
+     <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=RipplePiam/MobaXterm-Chinese-Simplified&type=Date" />
+   </picture>
   </a>
 </p>
 
