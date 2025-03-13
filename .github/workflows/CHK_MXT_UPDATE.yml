@@ -83,6 +83,6 @@ jobs:
         with:
           author_name: Github Actions
           author_email: actions@github.com
-          add: "assets/mxt_badge.svg assets/chs_badge.svg"
+          add: "assets/mxt_badge.svg"
           message: "update version badge to v${{ vars.MXT_VERSION }}"
       
