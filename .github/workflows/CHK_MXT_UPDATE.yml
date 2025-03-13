@@ -72,7 +72,7 @@ jobs:
               -f name="MXT_VERSION" \
               -f value="$VERSION" \
               -f visible=true
-            echo "actions.variables.MXT_VERSION is up to date."
+            echo "actions.variables.MXT_VERSION is set to $VERSION."
           else
             echo "actions.variables.MXT_VERSION is already up to date."
           fi
@@ -84,5 +84,5 @@ jobs:
           author_name: Github Actions
           author_email: actions@github.com
           add: "assets/mxt_badge.svg"
-          message: "update version badge to v${{ vars.MXT_VERSION }}"
+          message: "update version badge to v${{ steps.extract.outputs.version }}"
       
