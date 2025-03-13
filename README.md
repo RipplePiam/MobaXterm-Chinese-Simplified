@@ -19,13 +19,14 @@
   <a href="https://github.com/ripplepiam/MobaXterm-Chinese-Simplified">
     <img src="https://img.shields.io/github/repo-size/RipplePiam/MobaXterm-Chinese-Simplified">
   </a>
-  <a href="https://github.com/RipplePiam/MobaXterm-Chinese-Simplified/tags">
-  	<img src="https://img.shields.io/github/v/release/RipplePiam/MobaXterm-Chinese-Simplified?include_prereleases">
+  <a href="MobaXterm Latest Version">
+    <img src="assets/mxt_badge.svg">
   </a>
   <br/>
+  <a href="Star History Chart">
+    <img src="https://api.star-history.com/svg?repos=RipplePiam/MobaXterm-Chinese-Simplified&type=Date" width="700">
+  </a>
 </p>
-
-   [![Star History Chart](https://api.star-history.com/svg?repos=RipplePiam/MobaXterm-Chinese-Simplified&type=Date)](https://star-history.com/#RipplePiam/MobaXterm-Chinese-Simplified&Date) 
 
 
 
